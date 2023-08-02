@@ -1,0 +1,5 @@
+N=15 T=250
+HHO is now tackling your problem
+Elapsed time is 6033.463972 seconds.
+The best location of HHO is: 1.00645      1.00023           20      19.8658      19.8015      19.8575     -5.67366      1.96998      -3.1275
+The best fitness of HHO is: 1.174333226351078e+21

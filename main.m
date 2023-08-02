@@ -33,9 +33,9 @@
 clear all %#ok<CLALL>
 close all
 clc
-N=30; % Number of search agents
+N=15; % Number of search agents
 Function_name='F24'; % Name of the test function 
-T=500; % Maximum number of iterations
+T=250; % Maximum number of iterations
 % Load details of the selected benchmark function
 [lb,ub,dim,fobj]=Get_Functions_details(Function_name);
 [Rabbit_Energy,Rabbit_Location,CNVG]=HHO(N,T,lb,ub,dim,fobj);

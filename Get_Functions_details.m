@@ -312,7 +312,7 @@ end
 
 
 
-function res = fobj(x)
+function res = F25(x)
 
     %% Parte 1 - Definicoes do sistema
 
@@ -665,5 +665,5 @@ function res = fobj(x)
 end
 
 function o = F24(x)
-o=fobj(x);
+o=F25(x);
 end
