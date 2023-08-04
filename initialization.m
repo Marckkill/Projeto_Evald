@@ -1,9 +1,3 @@
-% Main paper:
-% Harris hawks optimization: Algorithm and applications
-% Ali Asghar Heidari, Seyedali Mirjalili, Hossam Faris, Ibrahim Aljarah, Majdi Mafarja, Huiling Chen
-% Future Generation Computer Systems, 
-% DOI: https://doi.org/10.1016/j.future.2019.02.028
-% _____________________________________________________
 function [X]=initialization(N,dim,up,down)
 if size(up,1)==1
 X = bsxfun(@plus, down, bsxfun(@times, rand(N, dim), (up - down)));
