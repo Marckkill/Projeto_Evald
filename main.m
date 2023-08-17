@@ -8,7 +8,7 @@ T=200; %Numero de iteracoes
 
 num = 10; %Numero de vezes que o codigo roda
 logFilename = 'console_output_log.txt';
-diary(logFilename);
+diary(logFilename); 
 
 for run = 1:num
     [lb,ub,dim,fobj]=Get_Functions_details(Function_name);

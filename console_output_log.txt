@@ -15,3 +15,110 @@ Valores otimizados: 101.5284      759.2285    -0.5872466     0.2532434   -0.0201
 Melhor fitness: 1.691938811815285e+19
 
 ================================================================================================================================
+
+Rodando HHO. Aguarde...
+Elapsed time is 5151.639713 seconds.
+Loop: 1
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 82.133      40.9444     -2.84283      1.27723    -0.897838       6.2123    0.0513597     0.189854      1.53329
+Melhor fitness: 1.50135347239448e+20
+ 
+=======================================================================================================================================
+
+Rodando HHO. Aguarde...
+Elapsed time is 4811.789470 seconds.
+Loop: 1
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 205.93      207.2881     -0.772152     0.5102774    0.01055886     0.6724002    -0.4263753    0.04409399     0.2033881
+Melhor fitness: 2.048436609170747e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 4869.171921 seconds.
+Loop: 2
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 68.9998      68.9696     -1.45229       1.1193   -0.0384047       1.4578    0.0341527    0.0706637     0.261987
+Melhor fitness: 8.790082908720066e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 4947.651303 seconds.
+Loop: 3
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 1.0791           1      2.1732      1.3141     -3.2793     -4.5203      2.7326     -0.3252     -3.5681
+Melhor fitness: 2.270073550488765e+21
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 5060.369852 seconds.
+Loop: 4
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 196.5503      441.2579    -0.4855506     0.1405096    0.01270843     0.8899538     0.2440502   -0.02063314     0.2345386
+Melhor fitness: 2.205318536855314e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 5076.528849 seconds.
+Loop: 5
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 115.3526       115.462    -0.5046487     0.2898377   -0.08364972      0.129221    -0.1305447    0.02118995     0.1667776
+Melhor fitness: 7.178248392795386e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 5052.320426 seconds.
+Loop: 6
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 53.38864      161.0895    -0.5286447     0.1045305     0.0210228      1.146222     -1.050839    0.03277853     0.3442126
+Melhor fitness: 3.01920424916937e+19
+
+====================================================================================================================Rodando HHO. Aguarde...
+Elapsed time is 4811.789470 seconds.
+Loop: 1
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 205.93      207.2881     -0.772152     0.5102774    0.01055886     0.6724002    -0.4263753    0.04409399     0.2033881
+Melhor fitness: 2.048436609170747e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 4869.171921 seconds.
+Loop: 2
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 68.9998      68.9696     -1.45229       1.1193   -0.0384047       1.4578    0.0341527    0.0706637     0.261987
+Melhor fitness: 8.790082908720066e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 4947.651303 seconds.
+Loop: 3
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 1.0791           1      2.1732      1.3141     -3.2793     -4.5203      2.7326     -0.3252     -3.5681
+Melhor fitness: 2.270073550488765e+21
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 5060.369852 seconds.
+Loop: 4
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 196.5503      441.2579    -0.4855506     0.1405096    0.01270843     0.8899538     0.2440502   -0.02063314     0.2345386
+Melhor fitness: 2.205318536855314e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 5076.528849 seconds.
+Loop: 5
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 115.3526       115.462    -0.5046487     0.2898377   -0.08364972      0.129221    -0.1305447    0.02118995     0.1667776
+Melhor fitness: 7.178248392795386e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 5052.320426 seconds.
+Loop: 6
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 53.38864      161.0895    -0.5286447     0.1045305     0.0210228      1.146222     -1.050839    0.03277853     0.3442126
+Melhor fitness: 3.01920424916937e+19
+ 

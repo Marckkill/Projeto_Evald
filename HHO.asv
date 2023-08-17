@@ -31,7 +31,7 @@ while t<T
             %% Exploration:
             % Harris' hawks perch randomly based on 2 strategy:
             
-            q=rand(); 
+            q=rand();
             rand_Hawk_index = floor(N*rand()+1);
             X_rand = X(rand_Hawk_index, :);
             if q<0.5
