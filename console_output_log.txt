@@ -132,9 +132,17 @@ Variaveis:
 ====================================================================================================================
 
 %%ABAIXO%% VALORES 0.4 PARA Q E R
+
     Rodando HHO. Aguarde...
     Elapsed time is 9767.131213 seconds.
     Numero de falcoes: 20
     Numero de iteracoes: 200
     Valores otimizados: 49.6227      43.5772     -12.1544      3.59222    -0.201876    -0.948007     -2.07619      3.69969      8.36875
     Melhor fitness: 5.355486387017837e+21
+
+    Rodando HHO. Aguarde...
+    Elapsed time is 10569.778866 seconds.
+    Numero de falcoes: 20
+    Numero de iteracoes: 200
+    Valores otimizados: 567.8783      100.3025     -15.81788      4.508514      6.173249      12.93067      6.874595      5.110381      7.941348
+    Melhor fitness: 2.605715992323258e+21
