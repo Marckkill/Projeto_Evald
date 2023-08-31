@@ -364,63 +364,62 @@ for k=4:length(tempo)
     Thetas(k+1)=Thetas(k)*(1-Ts*sigma(k)*Gamma)-(Ts*Gamma*kappa*zetas(k)*E1(k))/([m(k)]);
     Theta(:,k+1)=[Theta1(k+1);Theta2(k+1);Theta3(k+1);Theta4(k+1);Theta5(k+1);Thetac(k+1);Thetas(k+1)]; 
     
-     %Transitorio Inicial
-     if(tempo(k)>0 && tempo(k)<1)
+    %Transitorio Inicial
+    if(tempo(k)>0)
         et0 = abs(e1(k));
-        if(et0<=0.2 && aux0==0)
+        if(et0<=0.02*abs(ym(k)) && aux0==0)
             t0 = tempo(k);
             aux0=1;
         end
-        if(et0>0.2)
+        if(e1(k)>et0 && e1(k)>0.02*abs(ym(k)) && tempo(k)<1)
             aux0 = 0;
-            %t0 = tempo(k);
+            t0 = tempo(k);
         end
+        to
     end
+    
 
     
     %Transitorio de carga 1
-    if(tempo(k)>=1 && tempo(k)<=1.75)
+    if(tempo(k)>1)
         et1 = abs(e1(k));
-        if(et1<=0.4 && aux1==0)
+        if(et1<=0.02*abs(ym(k)) && aux1==0)
             t1 = tempo(k)-1;
             aux1=1;
         end
-        if(et1>0.4)
+        if(e1(k)>et1 && e1(k)>0.02*abs(ym(k)) && tempo(k)<1.75)
             aux1 = 0;
-            %t1 = tempo(k)-1;
+            t1 = tempo(k)-1;
         end
     end
     
-
-
+    
     
     %Transitorio de carga 2
-    if(tempo(k)>1.75 && tempo(k)<=2.5)
+    if(tempo(k)>1.75)
         et2 = abs(e1(k));
-        if(et2<=0.6 && aux2==0)
+        if(et2<=0.02*abs(ym(k)) && aux2==0)
             t2 = tempo(k)-1.75;
             aux2=1;
         end
-        if(et2>0.6)
+        if(e1(k)>et2 && e1(k)>0.02*abs(ym(k)) && tempo(k)<2.5)
             aux2 = 0;
-            %t2 = tempo(k)-1.75;
+            t2 = tempo(k)-1.75;
         end
     end
-
-
     
     
     
     %Transitorio de variacao parametrica
-    if(tempo(k)>2.5)
+    if(tempo(k)> 2.5)
         et3 = abs(e1(k));
-        if(et3<=0.6 && aux3==0)
+        if(et3<=0.02*abs(ym(k)) && aux3==0)
             t3 = tempo(k)-2.5;
             aux3=1;
         end
-        if(et3>0.6)
+        if(e1(k)>et3 && e1(k)>0.02*abs(ym(k)) && tempo(k)>2.5)
             aux3 = 0;
-            %t3 = tempo(k)-2.5;
+            t3 = tempo(k)-2.5;
         end
     end
 end
