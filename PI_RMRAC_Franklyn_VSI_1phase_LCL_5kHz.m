@@ -148,29 +148,29 @@ a1r=denMRZ(2)
 delta0=0.7;
 delta1=1;
 
-figure(1)
-b2=bodeplot(sysC3, sysC, opts);
-title('Diagrama de Bode Planta Real e Aproximada')
-l2=legend('$G\_{(ig,d)}(s) Real$', '$G\_{(ig,d)}(s) Aprox.$'); 
-set(l2, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-axes=findobj('type','axes');
-b2_magnitude=get(axes(2),'YLabel');
-b2_phase=get(axes(1),'YLabel');
-set(b2_magnitude,'String','Magnitude (dB)');
-set(b2_phase,'String','Fase (graus)');
-
-figure(2)
-b3=bodeplot(sysC, sysMR, opts);
-title('Diagrama de Bode Planta Aproximada e Modelo Refer\^encia')
-l3=legend('$Gp(s) Aprox.$', '$Wm(s)$'); 
-set(l3, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-axes=findobj('type','axes');
-b3_magnitude=get(axes(2),'YLabel');
-b3_phase=get(axes(1),'YLabel');
-set(b3_magnitude,'String','Magnitude (dB)');
-set(b3_phase,'String','Fase (graus)');
+% figure(1)
+% b2=bodeplot(sysC3, sysC, opts);
+% title('Diagrama de Bode Planta Real e Aproximada')
+% l2=legend('$G\_{(ig,d)}(s) Real$', '$G\_{(ig,d)}(s) Aprox.$'); 
+% set(l2, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% axes=findobj('type','axes');
+% b2_magnitude=get(axes(2),'YLabel');
+% b2_phase=get(axes(1),'YLabel');
+% set(b2_magnitude,'String','Magnitude (dB)');
+% set(b2_phase,'String','Fase (graus)');
+% 
+% figure(2)
+% b3=bodeplot(sysC, sysMR, opts);
+% title('Diagrama de Bode Planta Aproximada e Modelo Refer\^encia')
+% l3=legend('$Gp(s) Aprox.$', '$Wm(s)$'); 
+% set(l3, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% axes=findobj('type','axes');
+% b3_magnitude=get(axes(2),'YLabel');
+% b3_phase=get(axes(1),'YLabel');
+% set(b3_magnitude,'String','Magnitude (dB)');
+% set(b3_phase,'String','Fase (graus)');
 
 %% Parte 2 - Parametros PI-RMRAC
 
@@ -236,16 +236,32 @@ Mo=5;
 % Thetas = 1.51137460586707*ones(1,length(tempo));
 % Theta=[Theta1; Theta2; Theta3; Theta4; Theta5; Thetac; Thetas];
 
+run1 = [213.0443, 239.375, -0.6755966, 0.1534227, 0.02251536, 0.6236674, -1.119297, 0.03257845, 0.5142193];
+run2 = [101.5284, 759.2285, -0.5872466, 0.2532434, -0.02019455, 0.8453407, -0.7960242, -0.02258432, 0.2275902];
+run3 = [205.93, 207.2881, -0.772152, 0.5102774, 0.01055886, 0.6724002, -0.4263753, 0.04409399, 0.2033881];
+run4 = [196.5503, 441.2579, -0.4855506, 0.1405096, 0.01270843, 0.8899538, 0.2440502, -0.02063314, 0.2345386];
+run5 = [115.3526, 115.462, -0.5046487, 0.2898377, -0.08364972, 0.129221, -0.1305447, 0.02118995, 0.1667776];
+run6 = [53.38864, 161.0895, -0.5286447, 0.1045305, 0.0210228, 1.146222, -1.050839, 0.03277853, 0.3442126];
+run7 = [8.0845, 8.1467, -0.84418, 0.43163, -0.97496, -0.36209, -0.39496, 0.058619, 0.43048]; % ERRO
+run8 = [124.9423, 127.9772, -0.4286573, 0.08442583, -0.01317953, 0.231005, 0.6017969, 0.08958855, 0.2555118];
+run9 = [217.8912, 226.6223, -0.3279347, 0.1452973, -0.07297243, 0.2277312, -0.3341671, -0.009822892, 0.1420925];
+run10 = [172.956, 245.6202, -5.033108, 3.62641, 0.04974392, 4.595189, 3.276951, 0.3981488, 1.12355];
+
+ganho = run10;
+
 % GA 
-Gamma = 161.0808
-kappa = 161.0808
-Theta1 = -0.2503063*ones(1,length(tempo));
-Theta2 = -0.02208758*ones(1,length(tempo));
-Theta3 = 0.05761026*ones(1,length(tempo));
-Theta4 = 0.06259248*ones(1,length(tempo));
-Theta5 = -0.1810966*ones(1,length(tempo));
-Thetac = -0.02363053*ones(1,length(tempo));
-Thetas = 0.07112684*ones(1,length(tempo));
+Gamma = ganho(1);
+kappa = ganho(2);
+Theta1 = ganho(3) * ones(1, length(tempo));
+Theta2 = ganho(4) * ones(1, length(tempo));
+Theta3 = ganho(5) * ones(1, length(tempo));
+Theta4 = ganho(6) * ones(1, length(tempo));
+Theta5 = ganho(7) * ones(1, length(tempo));
+Thetac = ganho(8) * ones(1, length(tempo));
+Thetas = ganho(9) * ones(1, length(tempo));
+
+
+
 
 
 Theta=[Theta1; Theta2; Theta3; Theta4; Theta5; Thetac; Thetas];
@@ -425,116 +441,229 @@ for k=4:length(tempo)
     end
 end
 
+MAE = mad(e1)
+MSE = immse(r,y)
+RMSE = sqrt(mean((r - y).^2))
+
+
 display(t0);
 display(t1);
 display(t2);
 display(t3);
+
 %% Parte 4 - Graficos 
 
-figure(3)
-plot(tempo,r);
-grid on
-title('Refer\^encia', 'Interpreter', 'latex', 'FontSize', 16);
-l4=legend('r');
-set(l4, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Amplitude Refer\^encia r', 'Interpreter', 'latex', 'FontSize', 14);
+% figure(3)
+% plot(tempo,r);
+% grid on
+% title('Refer\^encia', 'Interpreter', 'latex', 'FontSize', 16);
+% l4=legend('r');
+% set(l4, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
+% ylabel('Amplitude Refer\^encia r', 'Interpreter', 'latex', 'FontSize', 14);
+% 
+% figure(4)
+% plot(tempo,e1,'r');
+% hold on
+% plot(tempo,E1,'b');
+% grid on
+% title('Erros Rastreamento x Aumentado', 'Interpreter', ...
+%       'latex', 'FontSize', 16);
+% l6=legend('e1 (rastreamento)', 'E1 (aumentado)');
+% set(l6, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
+% ylabel('Amplitude dos Erros','Interpreter', ...
+%        'latex', 'FontSize', 14);
+%    
+% figure(5)
+% plot(tempo,u);
+% grid on
+% title('Acao de Controle Escolhida', 'Interpreter', ... 
+%       'latex', 'FontSize', 16);
+% l8=legend('u');
+% set(l8, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
+% ylabel('Amplitude da Lei de Controle (MRAC+SM)','Interpreter', ...
+%        'latex', 'FontSize', 14);
+% 
+% figure(6)
+% plot(tempo,Theta1(1,1:end-1),'r');
+% hold on
+% plot(tempo,Theta2(1,1:end-1),'b');
+% hold on
+% plot(tempo,Theta3(1,1:end-1),'g');
+% hold on
+% plot(tempo,Theta4(1,1:end-1),'y');
+% hold on
+% plot(tempo,Theta5(1,1:end-1),'c');
+% hold on
+% plot(tempo,Thetac(1,1:end-1),'k');
+% hold on
+% plot(tempo,Thetas(1,1:end-1),'r');
+% grid on
+% title('Ganhos Algoritmo Adaptacao (Gradiente)', ...
+%       'Interpreter', 'latex', 'FontSize', 16);
+% l9=legend('Theta1', 'Theta2', 'Theta3', 'Theta4', 'Theta5', 'ThetaC', 'ThetaS');
+% set(l9, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
+% ylabel('Amplitude de Ganhos (Theta)','Interpreter', ...
+%        'latex', 'FontSize', 14);
+% 
+% figure(7)
+% plot(tempo,m);
+% ylabel('m');
+% grid on;
+% title('Normalizador', 'Interpreter', 'latex', 'FontSize', 16);
+% l10=legend('m');
+% set(l10, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
+% ylabel('Amplitude do Normalizador','Interpreter', ...
+%        'latex', 'FontSize', 14);
+% 
+% figure(8)
+% plot(tempo,ym,'r');
+% hold on
+% plot(tempo,y,'b');
+% grid on
+% title('Saidas do sistema', 'Interpreter', 'latex', 'FontSize', 16);
+% l11=legend('ym', 'y');
+% set(l11, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
+% ylabel('Amplitude de saida', 'Interpreter', 'latex', 'FontSize', 14);
+% 
+% figure(9)
+% plot(tempo,norm_Theta,'r');
+% grid on
+% title('Norma de Theta', 'Interpreter', 'latex', ...
+%       'FontSize', 16);
+% l12=legend('Norma de Theta');
+% set(l12, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
+% ylabel('Norma de Theta','Interpreter', 'latex', ...
+%        'FontSize', 14);
+%    
+% figure(10)
+% plot(tempo,sigma,'r');
+% grid on
+% title('Sigma Modification', 'Interpreter', 'latex', ...
+%       'FontSize', 16);
+% l13=legend('sigma');
+% set(l13, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
+%     'vertical', 'location', 'northeast');
+% xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
+% ylabel('Sigmas','Interpreter', 'latex', ...
+%        'FontSize', 14);
+% 
 
-figure(4)
-plot(tempo,e1,'r');
-hold on
-plot(tempo,E1,'b');
-grid on
-title('Erros Rastreamento x Aumentado', 'Interpreter', ...
-      'latex', 'FontSize', 16);
-l6=legend('e1 (rastreamento)', 'E1 (aumentado)');
-set(l6, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Amplitude dos Erros','Interpreter', ...
-       'latex', 'FontSize', 14);
-   
-figure(5)
-plot(tempo,u);
-grid on
-title('Acao de Controle Escolhida', 'Interpreter', ... 
-      'latex', 'FontSize', 16);
-l8=legend('u');
-set(l8, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Amplitude da Lei de Controle (MRAC+SM)','Interpreter', ...
-       'latex', 'FontSize', 14);
 
-figure(6)
-plot(tempo,Theta1(1,1:end-1),'r');
-hold on
-plot(tempo,Theta2(1,1:end-1),'b');
-hold on
-plot(tempo,Theta3(1,1:end-1),'g');
-hold on
-plot(tempo,Theta4(1,1:end-1),'y');
-hold on
-plot(tempo,Theta5(1,1:end-1),'c');
-hold on
-plot(tempo,Thetac(1,1:end-1),'k');
-hold on
-plot(tempo,Thetas(1,1:end-1),'r');
-grid on
-title('Ganhos Algoritmo Adaptacao (Gradiente)', ...
-      'Interpreter', 'latex', 'FontSize', 16);
-l9=legend('Theta1', 'Theta2', 'Theta3', 'Theta4', 'Theta5', 'ThetaC', 'ThetaS');
-set(l9, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Amplitude de Ganhos (Theta)','Interpreter', ...
-       'latex', 'FontSize', 14);
+% PI-RMRAC plots para artigo
+fonte = 21;
 
-figure(7)
-plot(tempo,m);
-ylabel('m');
+a=figure;
+% plot(tempo,r,'k','LineWidth',2);
+plot(tempo,ym,'k','LineWidth',2);
+hold on
+% plot(t,y,'color',[0,0,0]+0.7,'LineWidth',2);
+plot(tempo,y,':b','LineWidth',4); %4
 grid on;
-title('Normalizador', 'Interpreter', 'latex', 'FontSize', 16);
-l10=legend('m');
-set(l10, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Amplitude do Normalizador','Interpreter', ...
-       'latex', 'FontSize', 14);
+h2 = legend('$y_m$','$y$',([345, 100, 0, 0]));
+% h2 = legend('$y_{m}$','$y$',([345, 100, 0, 0]));
+set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
+set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
+set(gcf,'Units','centimeters','PaperSize',[13 7]);   
+% Recortar a figura da página
+set(gca,'fontsize',fonte,'units','norm');
+ylabel('Current (A)','fontsize',fonte);
+xlabel('Time (s)','fontsize',fonte);
+% xlim([0 0.030])
+% ylim([-25 25])
+% xlim([0.99 1.03])
+% ylim([-25 25])
+% xlim([1.74 1.78])
+% ylim([-30 30])
+% xlim([2.49 2.52])
+% ylim([-35 35])
 
-figure(8)
-plot(tempo,ym,'r');
+
+figure
+plot(tempo,e1,'b','LineWidth',3);
+hold
+% plot(tempo,E1,'color',[0,0,0]+0.7,'LineWidth',2);
+plot(tempo,E1,':k','LineWidth',4);
+grid on;
+h2 = legend('$e_{1}$','$\epsilon$',([345, 100, 0, 0]));
+set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
+set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
+set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da página
+set(gca,'fontsize',fonte,'units','norm');
+ylabel('Errors (A)','fontsize',fonte);
+xlabel('Time (s)','fontsize',fonte);
+% xlim([0 0.03])
+% ylim([-35 35])
+% xlim([0.99 1.05])
+% ylim([-2 2])
+% xlim([1.74 1.82])
+% ylim([-2 2])
+% xlim([2.48 2.6])
+% ylim([-6 6])
+
+figure
+plot(tempo,u,'b','LineWidth',2);
+grid on;
+h2 = legend('$u$',([345, 100, 0, 0]));
+set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
+set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
+set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da página
+set(gca,'fontsize',fonte,'units','norm');
+ylabel('Control action (V)','fontsize',fonte);
+xlabel('Time (s)','fontsize',fonte);
+% ylim([-0.08 0.08])
+% xlim([95 130])
+% ylim([-0.08 0.08])
+% xlim([145 170])
+
+% t(k+1) = t(k);
+% figure
+% set(gcf,'renderer','painters')
+% plot(t,theta(1,:),':k','LineWidth',4);
+% hold on
+% plot(t,theta(2,:),'color',[0,0,0]+0.6,'LineWidth',3);
+% plot(t,theta(3,:),'--k','LineWidth',2);
+% plot(t,theta(4,:),'-.k','LineWidth',2);
+% plot(t,theta(5,:),'-.','color',[0,0,0]+0.7,'LineWidth',2);
+% grid on;
+% h2 = legend('$\theta_{1}$','$\theta_{2}$','$\theta_{3}$','$\theta_{4}$','$\theta_{5}$',([345, 100, 0, 0]));
+% set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
+% set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
+% set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da página
+% set(gca,'fontsize',fonte,'units','norm');
+% ylabel('Gains','fontsize',fonte);
+% xlabel('Time (s)','fontsize',fonte);
+
+tempo(k+1) = tempo(k);
+figure
+set(gcf,'renderer','painters')
+plot(tempo,Theta(1,:),'k','LineWidth',4);
 hold on
-plot(tempo,y,'b');
-grid on
-title('Saidas do sistema', 'Interpreter', 'latex', 'FontSize', 16);
-l11=legend('ym', 'y');
-set(l11, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Amplitude de saida', 'Interpreter', 'latex', 'FontSize', 14);
-
-figure(9)
-plot(tempo,norm_Theta,'r');
-grid on
-title('Norma de Theta', 'Interpreter', 'latex', ...
-      'FontSize', 16);
-l12=legend('Norma de Theta');
-set(l12, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Norma de Theta','Interpreter', 'latex', ...
-       'FontSize', 14);
-   
-figure(10)
-plot(tempo,sigma,'r');
-grid on
-title('Sigma Modification', 'Interpreter', 'latex', ...
-      'FontSize', 16);
-l13=legend('sigma');
-set(l13, 'Interpreter', 'latex', 'FontSize', 10, 'Orientation', ...
-    'vertical', 'location', 'northeast');
-xlabel('Tempo (s)', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Sigmas','Interpreter', 'latex', ...
-       'FontSize', 14);
+plot(tempo,Theta(2,:),':b','LineWidth',3);
+plot(tempo,Theta(3,:),'--r','LineWidth',2);
+plot(tempo,Theta(4,:),'-.c','LineWidth',2);
+plot(tempo,Theta(5,:),'dg','LineWidth',1);
+plot(tempo,Theta(6,:),'color',[0,0,0]+0.6,'LineWidth',3);
+plot(tempo,Theta(7,:),'--k','LineWidth',2);
+grid on;
+h2 = legend('$\theta_{1}$','$\theta_{2}$','$\theta_{3}$','$\theta_{4}$','$\theta_{5}$','$\theta_{c}$','$\theta_{s}$',([345, 100, 0, 0]));
+set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
+set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
+set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da página
+set(gca,'fontsize',fonte,'units','norm');
+ylabel('Gains','fontsize',fonte);
+xlabel('Time (s)','fontsize',fonte);
+% ylim([-4 8])

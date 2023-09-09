@@ -49,7 +49,7 @@ while t<T
              %% phase 1: surprise pounce (seven kills)
             % surprise pounce (seven kills): multiple, short rapid dives by different hawks
             
-            r=0.5; % probablity of each event
+            r=rand(); % probablity of each event
             
             if r>=0.5 && abs(Escaping_Energy)<0.5 % Hard besiege
                 X(i,:)=(Rabbit_Location)-Escaping_Energy*abs(Rabbit_Location-X(i,:));

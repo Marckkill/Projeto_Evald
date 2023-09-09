@@ -39,32 +39,11 @@ Variaveis:
     Melhor fitness: 1.691938811815285e+19
 
     Rodando HHO. Aguarde...
-    Elapsed time is 5151.639713 seconds.
-    Numero de falcoes: 20
-    Numero de iteracoes: 200
-    Valores otimizados: 82.133      40.9444     -2.84283      1.27723    -0.897838       6.2123    0.0513597     0.189854      1.53329
-    Melhor fitness: 1.50135347239448e+20
-
-    Rodando HHO. Aguarde...
     Elapsed time is 4811.789470 seconds.
     Numero de falcoes: 20
     Numero de iteracoes: 200
     Valores otimizados: 205.93      207.2881     -0.772152     0.5102774    0.01055886     0.6724002    -0.4263753    0.04409399     0.2033881
     Melhor fitness: 2.048436609170747e+19
-    
-    Rodando HHO. Aguarde...
-    Elapsed time is 4869.171921 seconds.
-    Numero de falcoes: 20
-    Numero de iteracoes: 200
-    Valores otimizados: 68.9998      68.9696     -1.45229       1.1193   -0.0384047       1.4578    0.0341527    0.0706637     0.261987
-    Melhor fitness: 8.790082908720066e+19
-    
-    Rodando HHO. Aguarde...
-    Elapsed time is 4947.651303 seconds.
-    Numero de falcoes: 20
-    Numero de iteracoes: 200
-    Valores otimizados: 1.0791           1      2.1732      1.3141     -3.2793     -4.5203      2.7326     -0.3252     -3.5681
-    Melhor fitness: 2.270073550488765e+21
     
     Rodando HHO. Aguarde...
     Elapsed time is 5060.369852 seconds.
@@ -88,47 +67,33 @@ Variaveis:
     Melhor fitness: 3.01920424916937e+19
 
     Rodando HHO. Aguarde...
-    Elapsed time is 4811.789470 seconds.
+    Elapsed time is 7299.259383 seconds.
     Numero de falcoes: 20
     Numero de iteracoes: 200
-    Valores otimizados: 205.93      207.2881     -0.772152     0.5102774    0.01055886     0.6724002    -0.4263753    0.04409399     0.2033881
-    Melhor fitness: 2.048436609170747e+19
+    Valores otimizados: 8.0845      8.1467    -0.84418     0.43163    -0.97496    -0.36209    -0.39496    0.058619     0.43048
+    Melhor fitness: 3.851619099831402e+20
     
     Rodando HHO. Aguarde...
-    Elapsed time is 4869.171921 seconds.
+    Elapsed time is 6443.749827 seconds.
     Numero de falcoes: 20
     Numero de iteracoes: 200
-    Valores otimizados: 68.9998      68.9696     -1.45229       1.1193   -0.0384047       1.4578    0.0341527    0.0706637     0.261987
-    Melhor fitness: 8.790082908720066e+19
+    Valores otimizados: 124.9423      127.9772    -0.4286573    0.08442583   -0.01317953      0.231005     0.6017969    0.08958855     0.2555118
+    Melhor fitness: 8.550457990275342e+19
     
     Rodando HHO. Aguarde...
-    Elapsed time is 4947.651303 seconds.
+    Elapsed time is 5483.886551 seconds.
     Numero de falcoes: 20
     Numero de iteracoes: 200
-    Valores otimizados: 1.0791           1      2.1732      1.3141     -3.2793     -4.5203      2.7326     -0.3252     -3.5681
-    Melhor fitness: 2.270073550488765e+21
+    Valores otimizados: 217.8912      226.6223    -0.3279347     0.1452973   -0.07297243     0.2277312    -0.3341671  -0.009822892     0.1420925
+    Melhor fitness: 4.669993203528204e+19
     
     Rodando HHO. Aguarde...
-    Elapsed time is 5060.369852 seconds.
+    Elapsed time is 5486.821178 seconds.
     Numero de falcoes: 20
     Numero de iteracoes: 200
-    Valores otimizados: 196.5503      441.2579    -0.4855506     0.1405096    0.01270843     0.8899538     0.2440502   -0.02063314     0.2345386
-    Melhor fitness: 2.205318536855314e+19
+    Valores otimizados: 172.956      245.6202     -5.033108       3.62641    0.04974392      4.595189      3.276951     0.3981488       1.12355
+    Melhor fitness: 5.966967993992743e+19
     
-    Rodando HHO. Aguarde...
-    Elapsed time is 5076.528849 seconds.
-    Numero de falcoes: 20
-    Numero de iteracoes: 200
-    Valores otimizados: 115.3526       115.462    -0.5046487     0.2898377   -0.08364972      0.129221    -0.1305447    0.02118995     0.1667776
-    Melhor fitness: 7.178248392795386e+19
-    
-    Rodando HHO. Aguarde...
-    Elapsed time is 5052.320426 seconds.
-    Numero de falcoes: 20
-    Numero de iteracoes: 200
-    Valores otimizados: 53.38864      161.0895    -0.5286447     0.1045305     0.0210228      1.146222     -1.050839    0.03277853     0.3442126
-    Melhor fitness: 3.01920424916937e+19
- 
 ====================================================================================================================
 
 %%ABAIXO%% VALORES RANDOM Q E 0.4 R
@@ -385,4 +350,2421 @@ Numero de falcoes: 40
 Numero de iteracoes: 400
 Valores otimizados: 366.2374        438.35      -0.91075     0.3693762   0.006617532      0.644127    -0.1776385     0.1089609     0.5119386
 Melhor fitness: 2.500717752781287e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 7299.259383 seconds.
+Loop: 1
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 8.0845      8.1467    -0.84418     0.43163    -0.97496    -0.36209    -0.39496    0.058619     0.43048
+Melhor fitness: 3.851619099831402e+20
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 6443.749827 seconds.
+Loop: 2
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 124.9423      127.9772    -0.4286573    0.08442583   -0.01317953      0.231005     0.6017969    0.08958855     0.2555118
+Melhor fitness: 8.550457990275342e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 5959.589638 seconds.
+Loop: 3
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 25.6068      66.8351     -1.05049    -0.426257    0.0594002     0.437517    -0.940161     0.140228      1.47704
+Melhor fitness: 2.795307351150017e+20
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 5483.886551 seconds.
+Loop: 4
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 217.8912      226.6223    -0.3279347     0.1452973   -0.07297243     0.2277312    -0.3341671  -0.009822892     0.1420925
+Melhor fitness: 4.669993203528204e+19
+ 
+Rodando HHO. Aguarde...
+Elapsed time is 5486.821178 seconds.
+Loop: 5
+Numero de falcoes: 20
+Numero de iteracoes: 200
+Valores otimizados: 172.956      245.6202     -5.033108       3.62641    0.04974392      4.595189      3.276951     0.3981488       1.12355
+Melhor fitness: 5.966967993992743e+19
+ 
+Rodando HHO. Aguarde...
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PI_RMRAC', 'C:\Users\José\Documents\GitHub\Projeto_Evald\PI_RMRAC.m', 261)" style="font-weight:bold">PI_RMRAC</a> (<a href="matlab: opentoline('C:\Users\José\Documents\GitHub\Projeto_Evald\PI_RMRAC.m',261,0)">line 261</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Get_Functions_details>F1', 'C:\Users\José\Documents\GitHub\Projeto_Evald\Get_Functions_details.m', 12)" style="font-weight:bold">Get_Functions_details>F1</a> (<a href="matlab: opentoline('C:\Users\José\Documents\GitHub\Projeto_Evald\Get_Functions_details.m',12,0)">line 12</a>)
+o=PI_RMRAC(x);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('HHO', 'C:\Users\José\Documents\GitHub\Projeto_Evald\HHO.m', 88)" style="font-weight:bold">HHO</a> (<a href="matlab: opentoline('C:\Users\José\Documents\GitHub\Projeto_Evald\HHO.m',88,0)">line 88</a>)
+                    if (fobj(X2)<fobj(X(i,:))), % improved move?
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'C:\Users\José\Documents\GitHub\Projeto_Evald\main.m', 15)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\José\Documents\GitHub\Projeto_Evald\main.m',15,0)">line 15</a>)
+    [Rabbit_Energy,Rabbit_Location,CNVG]=HHO(N,T,lb,ub,dim,fobj);
+} 
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0419299723318154
+
+
+MSE =
+
+          2.45692691499554
+
+
+RMSE =
+
+          1.56745874427225
+
+
+t0 =
+
+        0.0192460317460317
+
+
+t1 =
+
+        0.0109126984126984
+
+
+t2 =
+
+        0.0101190476190476
+
+
+t3 =
+
+        0.0180555555555557
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0419299723318154
+
+
+MSE =
+
+          2.45692691499554
+
+
+RMSE =
+
+          1.56745874427225
+
+
+t0 =
+
+        0.0192460317460317
+
+
+t1 =
+
+        0.0109126984126984
+
+
+t2 =
+
+        0.0101190476190476
+
+
+t3 =
+
+        0.0180555555555557
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0315639899897956
+
+
+MSE =
+
+          2.46136594104039
+
+
+RMSE =
+
+          1.56887409980546
+
+
+t0 =
+
+        0.0134920634920635
+
+
+t1 =
+
+       0.00952380952380949
+
+
+t2 =
+
+       0.00476190476190475
+
+
+t3 =
+
+       0.00932539682539701
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0315639899897956
+
+
+MSE =
+
+          2.46136594104039
+
+
+RMSE =
+
+          1.56887409980546
+
+
+t0 =
+
+        0.0134920634920635
+
+
+t1 =
+
+       0.00952380952380949
+
+
+t2 =
+
+       0.00476190476190475
+
+
+t3 =
+
+       0.00932539682539701
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0419299723318154
+
+
+MSE =
+
+          2.45692691499554
+
+
+RMSE =
+
+          1.56745874427225
+
+
+t0 =
+
+        0.0192460317460317
+
+
+t1 =
+
+        0.0109126984126984
+
+
+t2 =
+
+        0.0101190476190476
+
+
+t3 =
+
+        0.0180555555555557
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0419299723318154
+
+
+MSE =
+
+          2.45692691499554
+
+
+RMSE =
+
+          1.56745874427225
+
+
+t0 =
+
+        0.0192460317460317
+
+
+t1 =
+
+        0.0109126984126984
+
+
+t2 =
+
+        0.0101190476190476
+
+
+t3 =
+
+        0.0180555555555557
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0315639899897956
+
+
+MSE =
+
+          2.46136594104039
+
+
+RMSE =
+
+          1.56887409980546
+
+
+t0 =
+
+        0.0134920634920635
+
+
+t1 =
+
+       0.00952380952380949
+
+
+t2 =
+
+       0.00476190476190475
+
+
+t3 =
+
+       0.00932539682539701
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0601031050038836
+
+
+MSE =
+
+          2.56992557660463
+
+
+RMSE =
+
+          1.60309874200083
+
+
+t0 =
+
+        0.0136904761904762
+
+
+t1 =
+
+        0.0182539682539682
+
+
+t2 =
+
+        0.0172619047619047
+
+
+t3 =
+
+        0.0178571428571428
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0601031050038836
+
+
+MSE =
+
+          2.56992557660463
+
+
+RMSE =
+
+          1.60309874200083
+
+
+t0 =
+
+        0.0136904761904762
+
+
+t1 =
+
+        0.0182539682539682
+
+
+t2 =
+
+        0.0172619047619047
+
+
+t3 =
+
+        0.0178571428571428
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0772722989037975
+
+
+MSE =
+
+          2.57598095549305
+
+
+RMSE =
+
+          1.60498627891114
+
+
+t0 =
+
+        0.0202380952380952
+
+
+t1 =
+
+        0.0182539682539682
+
+
+t2 =
+
+        0.0113095238095238
+
+
+t3 =
+
+        0.0119047619047619
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0601031050038836
+
+
+MSE =
+
+          2.56992557660463
+
+
+RMSE =
+
+          1.60309874200083
+
+
+t0 =
+
+        0.0136904761904762
+
+
+t1 =
+
+        0.0182539682539682
+
+
+t2 =
+
+        0.0172619047619047
+
+
+t3 =
+
+        0.0178571428571428
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0772722989037975
+
+
+MSE =
+
+          2.57598095549305
+
+
+RMSE =
+
+          1.60498627891114
+
+
+t0 =
+
+        0.0202380952380952
+
+
+t1 =
+
+        0.0182539682539682
+
+
+t2 =
+
+        0.0113095238095238
+
+
+t3 =
+
+        0.0119047619047619
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+          0.18899571221621
+
+
+MSE =
+
+           3.6149332702203
+
+
+RMSE =
+
+           1.9012977857822
+
+
+t0 =
+
+        0.0257936507936508
+
+
+t1 =
+
+        0.0142857142857142
+
+
+t2 =
+
+        0.0144841269841269
+
+
+t3 =
+
+        0.0325396825396824
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0669606857518813
+
+
+MSE =
+
+          2.51166873173745
+
+
+RMSE =
+
+          1.58482451133791
+
+
+t0 =
+
+        0.0474206349206349
+
+
+t1 =
+
+        0.0107142857142857
+
+
+t2 =
+
+       0.00277777777777777
+
+
+t3 =
+
+        0.0345238095238094
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0669606857518813
+
+
+MSE =
+
+          2.51166873173745
+
+
+RMSE =
+
+          1.58482451133791
+
+
+t0 =
+
+        0.0474206349206349
+
+
+t1 =
+
+        0.0107142857142857
+
+
+t2 =
+
+       0.00277777777777777
+
+
+t3 =
+
+        0.0345238095238094
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+     5.51301991558041e+151
+
+
+MSE =
+
+   NaN
+
+
+RMSE =
+
+   NaN
+
+
+t0 =
+
+      0.000595238095238095
+
+{Undefined function or variable 't1'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz', 'C:\Users\José\Documents\GitHub\Projeto_Evald\PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz.m', 450)" style="font-weight:bold">PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz</a> (<a href="matlab: opentoline('C:\Users\José\Documents\GitHub\Projeto_Evald\PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz.m',450,0)">line 450</a>)
+display(t1);
+} 
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+        0.0669606857518813
+
+
+MSE =
+
+          2.51166873173745
+
+
+RMSE =
+
+          1.58482451133791
+
+
+t0 =
+
+        0.0474206349206349
+
+
+t1 =
+
+        0.0107142857142857
+
+
+t2 =
+
+       0.00277777777777777
+
+
+t3 =
+
+        0.0345238095238094
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+         0.289747130471637
+
+
+MSE =
+
+          5.46844209012876
+
+
+RMSE =
+
+          2.33847003190736
+
+
+t0 =
+
+        0.0267857142857143
+
+
+t1 =
+
+        0.0206349206349206
+
+
+t2 =
+
+        0.0204365079365079
+
+
+t3 =
+
+        0.0496031746031744
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+     5.51301991558041e+151
+
+
+MSE =
+
+   NaN
+
+
+RMSE =
+
+   NaN
+
+
+t0 =
+
+      0.000595238095238095
+
+{Undefined function or variable 't1'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz', 'C:\Users\José\Documents\GitHub\Projeto_Evald\PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz.m', 450)" style="font-weight:bold">PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz</a> (<a href="matlab: opentoline('C:\Users\José\Documents\GitHub\Projeto_Evald\PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz.m',450,0)">line 450</a>)
+display(t1);
+} 
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+         0.289747130471637
+
+
+MSE =
+
+          5.46844209012876
+
+
+RMSE =
+
+          2.33847003190736
+
+
+t0 =
+
+        0.0267857142857143
+
+
+t1 =
+
+        0.0206349206349206
+
+
+t2 =
+
+        0.0204365079365079
+
+
+t3 =
+
+        0.0496031746031744
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+         0.108479701646048
+
+
+MSE =
+
+           2.7121045702313
+
+
+RMSE =
+
+          1.64684685694551
+
+
+t0 =
+
+        0.0200396825396825
+
+
+t1 =
+
+        0.0132936507936507
+
+
+t2 =
+
+                    0.0125
+
+
+t3 =
+
+        0.0186507936507936
+
+Current plot held
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+
+MAE =
+
+         0.165524470833531
+
+
+MSE =
+
+          3.17546290240455
+
+
+RMSE =
+
+          1.78198285693341
+
+
+t0 =
+
+        0.0736111111111111
+
+
+t1 =
+
  

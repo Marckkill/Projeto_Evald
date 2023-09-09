@@ -2,9 +2,9 @@ clear all %#ok<CLALL>
 close all
 clc
 
-N=40; %Numero de falcoes
+N=20; %Numero de falcoes
 Function_name='F1'; %Sistema  
-T=400; %Numero de iteracoes
+T=200; %Numero de iteracoes
 
 num = 10; %Numero de vezes que o codigo roda
 logFilename = 'console_output_log.txt';
