@@ -246,8 +246,30 @@ run7 = [8.0845, 8.1467, -0.84418, 0.43163, -0.97496, -0.36209, -0.39496, 0.05861
 run8 = [124.9423, 127.9772, -0.4286573, 0.08442583, -0.01317953, 0.231005, 0.6017969, 0.08958855, 0.2555118];
 run9 = [217.8912, 226.6223, -0.3279347, 0.1452973, -0.07297243, 0.2277312, -0.3341671, -0.009822892, 0.1420925];
 run10 = [172.956, 245.6202, -5.033108, 3.62641, 0.04974392, 4.595189, 3.276951, 0.3981488, 1.12355];
+run11 = [419.6988, 416.0337, -0.297972, 0.1420171, 0.1103898, 0.09699574, 0.1528626, 0.1596322, 0.1450009];
+run12 = [167.1965, 75.1796, -1.53409, 1.267311, 0.05832269, 0.2874038, -0.4156018, 0.03451441, 0.05855093];
+run13 = [250.4957, 229.2439, -0.3013227, -0.0002652771, 0.09490825, 0.1763071, 0.05000762, -0.08538051, 9.704084e-05];
+run14 = [124.3937, 124.3946, -0.1252888, 0.04785739, -0.02437564, -0.02211184, -0.0324554, -0.03978009, -0.05963512];
+run15 = [70.68685, 194.6275, -0.1830204, 0.03927152, 0.02798445, 0.3346562, -0.05516622, -0.02336735, -0.02146523];
+run16 = [220.1712, 535.8073, -0.4556295, 0.1605824, 0.1636634, 0.2456095, 1.424088, 0.282578, 0.200289];
+run17 = [423.4247, 630.5384, -0.6307056, 0.1032169, 0.2878185, 0.6591699, 0.4457106, 0.5667509, 0.09940332];
+run18 = [85.2097, 64.0382, -0.172098, 0.0475738, -0.200376, -0.0543612, -0.068621, 0.00909796, 0.0813793]; %ERRO
+run19 = [305.9976, 319.9186, -0.2395501, 0.07405938, 0.01475971, 0.1540682, 0.4546484, 0.1181367, 0.1464548];
+run20 = [74.62692, 113.3649, -0.4039666, 0.0470856, 0.02169757, 0.3729628, 0.02453606, 0.0356503, 0.2830511];
+run21 = [254.056, 589.8777, -0.956227, 0.1470321, 0.006317114, 0.4934036, 0.1857939, 0.1589699, 0.7548527];
+run22 = [826.5501, 198.2087, -0.2965418, 0.005248478, 0.09897313, 0.1350394, 0.1272492, -0.05301344, -0.009200613];
+run23 = [796.0095, 729.3894, -1.082994, 0.4232208, 0.03025466, 0.5974452, 0.5263238, -0.01671684, 0.4731746];
+run24 = [106.7286, 151.8981, -0.1440115, 0.05045504, -0.1148311, 0.04216321, 0.04095441, 0.007005651, 0.04419522];
+run25 = [318.5635, 312.9175, -0.260408, 0.2132526, 0.1120209, 0.2191224, 0.2054765, 0.1059433, -0.01764737];
+run26 = [209.5551, 209.4442, -0.1316146, 0.04589244, 0.08714409, 0.08780425, -0.9561599, 0.1004829, 0.08395257];
+run27 = [878.7223, 618.6148, -0.670339, 0.0183705, 0.04130391, 0.8936983, 0.6312078, -0.008736371, 0.1629408];
+run28 = [25.19652, 196.3119, -0.192172, 0.05705789, 0.006116985, -0.006573285, -0.05722085, -0.09198096, 0.002113664];
+run29 = [1, 1, -1.632, 0.65932, -1.5236, 3.4339, 3.4483, -1.7401, 1.8142];
+run30 = [366.2374, 438.35, -0.91075, 0.3693762, 0.006617532, 0.644127, -0.1776385, 0.1089609, 0.5119386];
 
-ganho = run10;
+
+
+ganho = run30;
 
 % GA 
 Gamma = ganho(1);
@@ -275,10 +297,15 @@ zetac=zeros*ones(1,length(tempo));
 zetas=zeros*ones(1,length(tempo));   
 Zeta=[zetau; zetauk1; zetay; zetae1; zetaym; zetac; zetas];
 %% Parte 3 - Simulacao do Sistema em Malha Fechada (PI-RMRAC)
+
 aux0 = 0;
 aux1 = 0;
 aux2 = 0;
 aux3 = 0;
+ov0 = 0;
+ov1 = 0;
+ov2 = 0;
+ov3 = 0;
 
 for k=4:length(tempo)
         
@@ -379,9 +406,10 @@ for k=4:length(tempo)
     Thetac(k+1)=Thetac(k)*(1-Ts*sigma(k)*Gamma)-(Ts*Gamma*kappa*zetac(k)*E1(k))/([m(k)]);
     Thetas(k+1)=Thetas(k)*(1-Ts*sigma(k)*Gamma)-(Ts*Gamma*kappa*zetas(k)*E1(k))/([m(k)]);
     Theta(:,k+1)=[Theta1(k+1);Theta2(k+1);Theta3(k+1);Theta4(k+1);Theta5(k+1);Thetac(k+1);Thetas(k+1)]; 
-    
-     %Transitorio Inicial
-     if(tempo(k)>0 && tempo(k)<1)
+
+    %Transitorio Inicial
+    if(tempo(k)>0 && tempo(k)<1)
+        eval0 = abs(y(k));
         et0 = abs(e1(k));
         if(et0<=0.2 && aux0==0)
             t0 = tempo(k);
@@ -391,11 +419,15 @@ for k=4:length(tempo)
             aux0 = 0;
             %t0 = tempo(k);
         end
+        if (eval0>ov0)
+            ov0 = eval0;
+        end 
     end
 
     
     %Transitorio de carga 1
     if(tempo(k)>=1 && tempo(k)<=1.75)
+        eval1 = abs(y(k));
         et1 = abs(e1(k));
         if(et1<=0.4 && aux1==0)
             t1 = tempo(k)-1;
@@ -405,6 +437,9 @@ for k=4:length(tempo)
             aux1 = 0;
             %t1 = tempo(k)-1;
         end
+        if (eval1>ov1)
+            ov1 = eval1;
+        end
     end
     
 
@@ -412,6 +447,7 @@ for k=4:length(tempo)
     
     %Transitorio de carga 2
     if(tempo(k)>1.75 && tempo(k)<=2.5)
+        eval2 = abs(y(k));
         et2 = abs(e1(k));
         if(et2<=0.6 && aux2==0)
             t2 = tempo(k)-1.75;
@@ -421,14 +457,17 @@ for k=4:length(tempo)
             aux2 = 0;
             %t2 = tempo(k)-1.75;
         end
+        if (eval2>ov2)
+            ov2 = eval2;
+        end
     end
 
 
-    
-    
+   
     
     %Transitorio de variacao parametrica
     if(tempo(k)>2.5)
+        eval3 = abs(y(k));
         et3 = abs(e1(k));
         if(et3<=0.6 && aux3==0)
             t3 = tempo(k)-2.5;
@@ -438,18 +477,58 @@ for k=4:length(tempo)
             aux3 = 0;
             %t3 = tempo(k)-2.5;
         end
+        if (eval3>ov3)
+            ov3 = eval3;
+        end
     end
 end
 
-MAE = mad(e1)
-MSE = immse(r,y)
-RMSE = sqrt(mean((r - y).^2))
+if (ov0<10)
+    ov0 = 0;
+else
+    ov0 = ov0 - 10;
+end
+
+if (ov1<20)
+    ov1 = 0;
+else
+    ov1 = ov1 - 20;
+end
+
+if (ov2<30)
+    ov2 = 0;
+else
+    ov2 = ov2 - 30;
+end
+
+if (ov3<30)
+    ov3 = 0;
+else
+    ov3 = ov3 - 30;
+end
 
 
-display(t0);
-display(t1);
-display(t2);
-display(t3);
+MAE = mad(e1);
+MSE = immse(r,y);
+RMSE = sqrt(mean((r - y).^2));
+
+logFilename = 'erros.txt';
+diary(logFilename); 
+
+display(['MAE: ', num2str(MAE)]);
+display(['MSE: ', num2str(MSE)]);
+display(['RMSE: ', num2str(RMSE)]);
+display(['T0: ', num2str(t0)]);
+display(['T1: ', num2str(t1)]);
+display(['T2: ', num2str(t2)]);
+display(['T3: ', num2str(t3)]);
+display(['Overshoot 0: ', num2str(ov0)]);
+display(['Overshoot 1: ', num2str(ov1)]);
+display(['Overshoot 2: ', num2str(ov2)]);
+display(['Overshoot 3: ', num2str(ov3)]);
+display(' ');
+
+diary off;
 
 %% Parte 4 - Graficos 
 
@@ -578,7 +657,7 @@ h2 = legend('$y_m$','$y$',([345, 100, 0, 0]));
 set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
 set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
 set(gcf,'Units','centimeters','PaperSize',[13 7]);   
-% Recortar a figura da página
+% Recortar a figura da pï¿½gina
 set(gca,'fontsize',fonte,'units','norm');
 ylabel('Current (A)','fontsize',fonte);
 xlabel('Time (s)','fontsize',fonte);
@@ -601,7 +680,7 @@ grid on;
 h2 = legend('$e_{1}$','$\epsilon$',([345, 100, 0, 0]));
 set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
 set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da página
+set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da pï¿½gina
 set(gca,'fontsize',fonte,'units','norm');
 ylabel('Errors (A)','fontsize',fonte);
 xlabel('Time (s)','fontsize',fonte);
@@ -620,7 +699,7 @@ grid on;
 h2 = legend('$u$',([345, 100, 0, 0]));
 set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
 set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da página
+set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da pï¿½gina
 set(gca,'fontsize',fonte,'units','norm');
 ylabel('Control action (V)','fontsize',fonte);
 xlabel('Time (s)','fontsize',fonte);
@@ -642,7 +721,7 @@ xlabel('Time (s)','fontsize',fonte);
 % h2 = legend('$\theta_{1}$','$\theta_{2}$','$\theta_{3}$','$\theta_{4}$','$\theta_{5}$',([345, 100, 0, 0]));
 % set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
 % set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-% set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da página
+% set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da pï¿½gina
 % set(gca,'fontsize',fonte,'units','norm');
 % ylabel('Gains','fontsize',fonte);
 % xlabel('Time (s)','fontsize',fonte);
@@ -662,8 +741,10 @@ grid on;
 h2 = legend('$\theta_{1}$','$\theta_{2}$','$\theta_{3}$','$\theta_{4}$','$\theta_{5}$','$\theta_{c}$','$\theta_{s}$',([345, 100, 0, 0]));
 set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
 set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da página
+set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da pï¿½gina
 set(gca,'fontsize',fonte,'units','norm');
 ylabel('Gains','fontsize',fonte);
 xlabel('Time (s)','fontsize',fonte);
 % ylim([-4 8])
+
+hold off
