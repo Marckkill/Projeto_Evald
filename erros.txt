@@ -1,0 +1,120 @@
+
+ 
+MAE: 0.086345
+MSE: 2.741
+RMSE: 1.6556
+T0: 0.027381
+T1: 0.018254
+T2: 0.017659
+T3: 0.023413
+Overshoot 0: 14.9761
+Overshoot 1: 5.2516
+Overshoot 2: 5.2092
+Overshoot 3: 1.9301
+ 
+MAE: 3.729815358549982e+151
+MSE: NaN
+RMSE: NaN
+T0: 0.00059524
+{Undefined function or variable 't1'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz', 'C:\Users\José\Documents\GitHub\Projeto_Evald\PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz.m', 546)" style="font-weight:bold">PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz</a> (<a href="matlab: opentoline('C:\Users\José\Documents\GitHub\Projeto_Evald\PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz.m',546,0)">line 546</a>)
+display(['T1: ', num2str(t1)]);
+} 
+PI_RMRAC_Franklyn_VSI_1phase_LCL_5kHz
+
+s =
+ 
+  s
+ 
+Continuous-time transfer function.
+
+
+sysC3 =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_VP =
+ 
+                       1
+  --------------------------------------------
+  8.06e-11 s^3 + 7.13e-09 s^2 + 0.0023 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC3_Rd =
+ 
+                       1
+  --------------------------------------------
+  1.86e-11 s^3 + 4.03e-09 s^2 + 0.0013 s + 0.1
+ 
+Continuous-time transfer function.
+
+
+sysC =
+ 
+    769.2
+  ---------
+  s + 76.92
+ 
+Continuous-time transfer function.
+
+
+p4 =
+
+          76.9230769230769
+
+
+sysMR =
+ 
+    8300
+  --------
+  s + 8300
+ 
+Continuous-time transfer function.
+
+
+b0r =
+
+     0
+
+
+b1r =
+
+         0.807339440355167
+
+
+a1r =
+
+        -0.192660559644833
+
+MAE: 0.27821
+MSE: 3.5818
+RMSE: 1.8926
+T0: 0.059127
+T1: 0.067659
+T2: 0.050397
+T3: 0.15734
+Overshoot 0: 3.398
+Overshoot 1: 2.1653
+Overshoot 2: 2.0947
+Overshoot 3: 5.0573
+ 
+MAE: 0.10921
+MSE: 3.0751
+RMSE: 1.7536
+T0: 0.035714
+T1: 0.019643
+T2: 0.018452
+T3: 0.019643
+Overshoot 0: 25.1106
+Overshoot 1: 6.9962
+Overshoot 2: 7.0293
+Overshoot 3: 4.5944
+ 
