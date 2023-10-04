@@ -1,0 +1,12 @@
+HHO is now tackling your problem
+Elapsed time is 24.747429 seconds.
+Best gains are: 2.59091           20  0.000267286
+Mean absolute error: 0.039682
+HHO is now tackling your problem
+Elapsed time is 20.729354 seconds.
+Best gains are: 2.75783           20  0.000100363
+Mean absolute error: 0.039682
+HHO is now tackling your problem
+Elapsed time is 21.680102 seconds.
+Best gains are: 2.74551           20  0.000112692
+Mean absolute error: 0.039682

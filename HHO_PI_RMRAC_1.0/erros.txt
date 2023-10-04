@@ -118,3 +118,87 @@ Overshoot 1: 6.9962
 Overshoot 2: 7.0293
 Overshoot 3: 4.5944
  
+MAE: 0.04193
+MSE: 2.4569
+RMSE: 1.5675
+T0: 0.019246
+T1: 0.010913
+T2: 0.010119
+T3: 0.018056
+Overshoot 0: 7.5302
+Overshoot 1: 0
+Overshoot 2: 0
+Overshoot 3: 2.27
+ 
+MAE: 0.056351
+MSE: 2.6425
+RMSE: 1.6256
+T0: 0.034325
+T1: 0.01746
+T2: 0.010516
+T3: 0.024206
+Overshoot 0: 15.8675
+Overshoot 1: 0.14113
+Overshoot 2: 0.24339
+Overshoot 3: 3.3898
+ 
+MAE: 0.056351
+MSE: 2.6425
+RMSE: 1.6256
+T0: 0.034325
+T1: 0.01746
+T2: 0.010516
+T3: 0.024206
+Overshoot 0: 15.8675
+Overshoot 1: 0.14113
+Overshoot 2: 0.24339
+Overshoot 3: 3.3898
+ 
+MAE: 0.18107
+MSE: 6.2732
+RMSE: 2.5046
+T0: 0.019643
+T1: 0.043254
+T2: 0.027381
+T3: 0.027183
+Overshoot 0: 71.3797
+Overshoot 1: 6.5795
+Overshoot 2: 7.0341
+Overshoot 3: 5.0143
+ 
+MAE: 0.24693
+MSE: 8.5893
+RMSE: 2.9307
+T0: 0.036111
+T1: 0.018849
+T2: 0.018056
+T3: 0.01746
+Overshoot 0: 56.3204
+Overshoot 1: 5.037
+Overshoot 2: 5.1389
+Overshoot 3: 2.0354
+ 
+MAE: 0.10921
+MSE: 3.0751
+RMSE: 1.7536
+T0: 0.035714
+T1: 0.019643
+T2: 0.018452
+T3: 0.019643
+Overshoot 0: 25.1106
+Overshoot 1: 6.9962
+Overshoot 2: 7.0293
+Overshoot 3: 4.5944
+ 
+MAE: 0.089427
+MSE: 3.0045
+RMSE: 1.7333
+T0: 0.017262
+T1: 0.019246
+T2: 0.017857
+T3: 0.011706
+Overshoot 0: 22.7381
+Overshoot 1: 4.4277
+Overshoot 2: 4.0969
+Overshoot 3: 3.332
+ 
