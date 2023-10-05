@@ -1,4 +1,4 @@
-function res = PI_RMRAC_for_optimization(x)
+function o = PI_RMRAC_for_optimization(x)
 
     %% Parte 1 - Definicoes do sistema
 
