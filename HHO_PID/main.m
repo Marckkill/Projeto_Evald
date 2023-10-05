@@ -35,5 +35,9 @@ axis tight
 grid off
 box on
 
+set(gcf, 'Position', get(0, 'ScreenSize'));
+filename = 'my_fullscreen_plot.pdf';
+exportgraphics(gcf, filename, 'ContentType', 'vector', 'BackgroundColor', 'none');
+
 end
 diary off;
