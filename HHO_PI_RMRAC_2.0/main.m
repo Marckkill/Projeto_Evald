@@ -1,25 +1,27 @@
-clear all 
+clear all
 close all
 clc
 
 N=30; % Number of search agents
 T=500; % Maximum number of iterations
-Function_name='F1'; % Name of the test function 
+Function_name='F1'; % Name of the test function
 
+imgCounter = 1; %Contador de figuras
 num = 1; %Numero de vezes que o codigo roda
-logFilename = 'ganhos.txt';
-imgCounter = 1;
-diary(logFilename); 
+logFilename = 'ganhos.txt'; %Nome do log
+outputFolder = 'Graficos'; %Nome da pasta dos graficos
+diary(logFilename); %Inicia o log
 for run = 1:num
-
+    
     % Load details of the selected benchmark function
     [lb,ub,dim,fobj]=Get_Functions_details(Function_name);
     [Rabbit_Energy,Rabbit_Location,CNVG]=HHO(N,T,lb,ub,dim,fobj);
-
+    
     % Display information
     display(['Best gains are: ', num2str(Rabbit_Location)]);
     display(['Mean absolute error: ', num2str(Rabbit_Energy)]);
-
+    fprintf('\n');
+    
     % Generate figure of fitness convergence
     fonte = 21;
     figure
@@ -35,9 +37,14 @@ for run = 1:num
     axis tight
     grid off
     box on
-
-    saveas(gcf,"fitness_"+int2str(imgCounter)+".pdf")
-    imgCounter = imgCounter+1;
-
+    
+    
+    % Salva a figura
+    set(gcf, 'Position', get(0, 'ScreenSize'));
+    filename = fullfile(outputFolder, ['fitness_', num2str(imgCounter), '.pdf']);
+    exportgraphics(gcf, filename, 'ContentType', 'vector', 'BackgroundColor', 'none');
+    imgCounter = imgCounter + 1;
+    
+    
 end
 diary off;

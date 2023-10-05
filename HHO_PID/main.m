@@ -6,20 +6,25 @@ N=30; % Number of search agents
 T=500; % Maximum number of iterations
 Function_name='F1'; % Name of the test function
 
+outputFolder = 'Outputs'; %Nome da pasta de saida
 imgCounter = 1; %Contador de figuras
-num = 1; %Numero de vezes que o codigo roda
+num = 5; %Numero de vezes que o codigo roda
 logFilename = 'ganhos.txt'; %Nome do log
-outputFolder = 'Graficos'; %Nome da pasta dos graficos
-diary(logFilename); %Inicia o log
+logFullfile = fullfile(outputFolder,logFilename);
 for run = 1:num
+    
     
     % Load details of the selected benchmark function
     [lb,ub,dim,fobj]=Get_Functions_details(Function_name);
     [Rabbit_Energy,Rabbit_Location,CNVG]=HHO(N,T,lb,ub,dim,fobj);
     
+    diary(logFullfile); %Inicia o log
     % Display information
+    display(['Run 1: ', num2str(run)]);
     display(['Best gains are: ', num2str(Rabbit_Location)]);
     display(['Mean absolute error: ', num2str(Rabbit_Energy)]);
+    fprintf('\n');
+    diary off;
     
     % Generate figure of fitness convergence
     fonte = 21;
@@ -45,5 +50,5 @@ for run = 1:num
     imgCounter = imgCounter + 1;
     
     
+    
 end
-diary off;
