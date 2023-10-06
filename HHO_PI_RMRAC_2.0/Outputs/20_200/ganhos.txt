@@ -1,0 +1,60 @@
+Run: 1
+Gamma: 35.7515
+Kappa: 987.8531
+Theta 1: -1.4072
+Theta 2: 0.51663
+Theta 3: -0.013731
+Theta 4: 1.2659
+Theta 5: -0.71557
+Theta A: 0.17614
+Theta S: 0.85765
+Mean absolute error: 0.057765
+
+Run: 2
+Gamma: 2.1381
+Kappa: 500.301
+Theta 1: -0.88779
+Theta 2: 0.17626
+Theta 3: 0.0042395
+Theta 4: 0.75645
+Theta 5: 0.051268
+Theta A: 0.040962
+Theta S: 0.62192
+Mean absolute error: 0.061715
+
+Run: 3
+Gamma: 1.0288
+Kappa: 542.9777
+Theta 1: -0.61523
+Theta 2: 0.11242
+Theta 3: -0.0062944
+Theta 4: 1.1702
+Theta 5: -0.75927
+Theta A: 0.13036
+Theta S: 0.46937
+Mean absolute error: 0.054155
+
+Run: 4
+Gamma: 2.5701
+Kappa: 721.7404
+Theta 1: -0.57441
+Theta 2: -0.15811
+Theta 3: 0.027216
+Theta 4: 0.24692
+Theta 5: 0.23961
+Theta A: -0.0037685
+Theta S: 0.57994
+Mean absolute error: 0.15127
+
+Run: 5
+Gamma: 5.7335
+Kappa: 716.9691
+Theta 1: -1.5274
+Theta 2: 0.55911
+Theta 3: 0.027067
+Theta 4: 0.78496
+Theta 5: -1.0734
+Theta A: 0.079632
+Theta S: 0.92519
+Mean absolute error: 0.067329
+

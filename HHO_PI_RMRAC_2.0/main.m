@@ -2,8 +2,8 @@ clear all
 close all
 clc
 
-N=5; % Number of search agents
-T=100; % Maximum number of iterations
+N=20; % Number of search agents
+T=200; % Maximum number of iterations
 Function_name='F1'; % Name of the test function
 
 outputFolder = 'Outputs'; %Nome da pasta de saida

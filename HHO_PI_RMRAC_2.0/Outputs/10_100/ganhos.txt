@@ -1,0 +1,62 @@
+Media de tempo: 250 segundos
+
+Run: 1
+Gamma: 4.7014
+Kappa: 660.8161
+Theta 1: -0.20185
+Theta 2: 0.10182
+Theta 3: 0.20317
+Theta 4: 0.17415
+Theta 5: 0.18395
+Theta A: 0.14746
+Theta S: 0.052337
+Mean absolute error: 25.4049
+
+Run: 2
+Gamma: 34.523
+Kappa: 578.5913
+Theta 1: -1.7887
+Theta 2: 0.052726
+Theta 3: 0.034306
+Theta 4: 0.92908
+Theta 5: 0.5007
+Theta A: 0.1438
+Theta S: 1.6373
+Mean absolute error: 0.11187
+
+Run: 3
+Gamma: 265.5619
+Kappa: 590.7392
+Theta 1: -0.50666
+Theta 2: -0.086886
+Theta 3: 0.011716
+Theta 4: 0.44834
+Theta 5: -0.32646
+Theta A: 0.0056002
+Theta S: 0.49553
+Mean absolute error: 0.074572
+
+Run: 4
+Gamma: 1.1803
+Kappa: 590.1398
+Theta 1: 0.21153
+Theta 2: 0.26905
+Theta 3: -0.61153
+Theta 4: 0.27962
+Theta 5: 0.11286
+Theta A: -0.82041
+Theta S: -1.9131
+Mean absolute error: 13335788.9462
+
+Run: 5
+Gamma: 1.0412
+Kappa: 520.934
+Theta 1: -0.70352
+Theta 2: 0.15328
+Theta 3: 0.061639
+Theta 4: 0.59095
+Theta 5: 0.14452
+Theta A: 0.039015
+Theta S: 0.46886
+Mean absolute error: 0.11779
+

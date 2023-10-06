@@ -139,23 +139,47 @@ zetac=zeros*ones(1,length(tempo));
 zetas=zeros*ones(1,length(tempo));   
 Zeta=[zetau; zetauk1; zetay; zetae1; zetaym; zetac; zetas];
 
-% Parâmetros do controlador
+% Parï¿½metros do controlador
 Mo=20;           % Mo tem relacao com o valor da norma de Theta em RP
 sigma_zero=0.1;  % Ts*lambda*sigma_k->1e-4*8000*0.125=0.1
 delta0=0.7;
 delta1=1;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Parâmetros otimizados do controlador
-% X agentes Y iterações
-run00 = [213.0443, 239.375, -0.6755966, 0.1534227, 0.02251536, 0.6236674, -1.119297, 0.03257845, 0.5142193];
-%...
+% Parï¿½metros otimizados do controlador
 
+% 5 agentes 100 iteraï¿½ï¿½es
+run1 = [11.837, 508.5441, -0.39627, -0.0064998, 0.3963, 0.69621, -0.078724, 0.019179, 0.11765];
+run2 = [1, 500, -0.29339, 0.14184, 0.13454, 0.078213, 0.15965, 0.13897, 0.14753];
+run3 = [3.5321, 598.912, -1.2971, -0.23385, 0.095052, 0.24889, -0.14707, 0.40109, 1.4538];
+run4 = [1.2125, 715.3248, -0.37236, -0.048854, -0.038524, 0.25239, -1.2193, 0.039998, 0.47639];
+run5 = [7.2651, 500, -1.2885, 0.7669, 0.10137, 0.70119, -0.43226, 0.16513, 0.14359];
+
+% 10 agentes 100 iteraï¿½ï¿½es
+run6 = [4.7014, 660.8161, -0.20185, 0.10182, 0.20317, 0.17415, 0.18395, 0.14746, 0.052337, 25.4049];
+run7 = [34.523, 578.5913, -1.7887, 0.052726, 0.034306, 0.92908, 0.5007, 0.1438, 1.6373, 0.11187];
+run8 = [265.5619, 590.7392, -0.50666, -0.086886, 0.011716, 0.44834, -0.32646, 0.0056002, 0.49553, 0.074572];
+run9 = [1.1803, 590.1398, 0.21153, 0.26905, -0.61153, 0.27962, 0.11286, -0.82041, -1.9131, 13335788.9462];
+run10 = [1.0412, 520.934, -0.70352, 0.15328, 0.061639, 0.59095, 0.14452, 0.039015, 0.46886, 0.11779];
+
+% 15 agentes 100 iteraï¿½ï¿½es
+run11 = [1.8541, 710.2661, -1.8246, 0.14274, -0.011546, 0.90747, 0.53606, 0.27579, 1.5939, 0.13065];
+run12 = [4.0957, 892.9802, -1.749, 0.46496, -0.016117, 2, -0.095195, 0.052165, 1.1824, 0.068401];
+run13 = [1.0024, 501.1768, -0.26747, 0.067298, -0.22757, 0.0026436, -0.28425, 0.00056861, 0.16587, 0.2847];
+run14 = [4.0081, 578.7163, -0.60048, 0.076731, 0.171, 0.80034, -0.024933, -0.18412, -0.044732, 17.5527];
+run15 = [218.7965, 558.9432, -0.8817, 0.40842, 0.0082336, 1.9225, -0.12118, 0.15772, 0.37372, 0.057107];
+
+% 20 agentes 100 iteraï¿½ï¿½es
+run16 = [1.3099, 551.5609, -0.80244, -0.0019028, 0.46342, 0.82078, -0.55923, 0.13067, -0.42515, 38.046];
+run17 = [3.3762, 571.683, -1.835, 0.88265, -0.22285, 0.19339, 0.20411, 0.23551, 0.86252, 0.3804];
+run18 = [38.0116, 604.8815, -0.47799, -0.10762, 0.020136, 0.35052, -0.30885, -0.02343, 0.44618, 0.098003];
+run19 = [41.4352, 662.8921, -0.92633, 0.10436, 0.059746, 1.5455, -0.89875, 0.025515, 0.23745, 0.10733];
+run20 = [194.3537, 635.5666, -1.9901, 0.44327, 0.031362, 1.0557, 0.8953, 0.025369, 1.4343, 0.11453];
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-ganho = run00;
+ganho = run18;
 
-% Carrega parâmetros e ganhos iniciais
+% Carrega parï¿½metros e ganhos iniciais
 Gamma = ganho(1);
 kappa = ganho(2);
 Theta1 = ganho(3) * ones(1, length(tempo));
@@ -168,8 +192,8 @@ Thetas = ganho(9) * ones(1, length(tempo));
 
 Theta=[Theta1; Theta2; Theta3; Theta4; Theta5; Thetac; Thetas];
 
-% Variáveis para análise de desempenho
-% dos regimes transitórios
+% Variï¿½veis para anï¿½lise de desempenho
+% dos regimes transitï¿½rios
 aux0 = 0;
 aux1 = 0;
 aux2 = 0;
@@ -353,7 +377,7 @@ for k=4:length(tempo)
     
 end
 
-% Calcula métricas do erro
+% Calcula mï¿½tricas do erro
 MAE = mad(e1);
 MSE = immse(r,y);
 RMSE = sqrt(mean((r - y).^2));
@@ -381,15 +405,15 @@ RMSE = sqrt(mean((r - y).^2));
         ov2 = ov2 - 30;
     end
     
-    % variação paramétrica
+    % variaï¿½ï¿½o paramï¿½trica
     if (ov3<30)
         ov3 = 0;
     else
         ov3 = ov3 - 30;
     end
 
-% Documenta índices de performance
-logFilename = 'performance.txt';
+% Documenta ï¿½ndices de performance
+logFilename = 'Outputs/performance.txt';
 diary(logFilename); 
 
 display(['MAE: ', num2str(MAE)]);
@@ -424,7 +448,7 @@ h2 = legend('$y_m$','$y$',([345, 100, 0, 0]));
 set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
 set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
 set(gcf,'Units','centimeters','PaperSize',[13 7]);   
-% Recortar a figura da página
+% Recortar a figura da pï¿½gina
 set(gca,'fontsize',fonte,'units','norm');
 ylabel('Current (A)','fontsize',fonte);
 xlabel('Time (s)','fontsize',fonte);
@@ -448,7 +472,7 @@ grid on;
 h2 = legend('$e_{1}$',([345, 100, 0, 0]));
 set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
 set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da página
+set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da pï¿½gina
 set(gca,'fontsize',fonte,'units','norm');
 ylabel('Errors (A)','fontsize',fonte);
 xlabel('Time (s)','fontsize',fonte);
@@ -467,7 +491,7 @@ grid on;
 h2 = legend('$u$',([345, 100, 0, 0]));
 set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
 set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da página
+set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da pï¿½gina
 set(gca,'fontsize',fonte,'units','norm');
 ylabel('Control action (V)','fontsize',fonte);
 xlabel('Time (s)','fontsize',fonte);
@@ -492,7 +516,7 @@ grid on;
 h2 = legend('$\theta_{1}$','$\theta_{2}$','$\theta_{3}$','$\theta_{4}$','$\theta_{5}$','$\theta_{c}$','$\theta_{s}$',([345, 100, 0, 0]));
 set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
 set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da página
+set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da pï¿½gina
 set(gca,'fontsize',fonte,'units','norm');
 ylabel('Gains','fontsize',fonte);
 xlabel('Time (s)','fontsize',fonte);
