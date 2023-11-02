@@ -1,0 +1,120 @@
+-------------------------------------
+Ganhos usados:
+Gamma: 39.5176
+Kappa: 1000
+Theta1: -0.81384
+Theta2: 0.31799
+Theta3: 0.011376
+Theta4: 1.4737
+Theta5: -0.36871
+ThetaA: -0.06759
+ThetaS: 0.33939
+Resultados simulacao:
+MAE: 0.033474
+MSE: 2.5266
+RMSE: 1.5895
+T0: 0.013889
+T1: 0.010913
+T2: 0.010317
+T3: 0.0099206
+Overshoot 0: 21.1041
+Overshoot 1: 1.8227
+Overshoot 2: 1.7139
+Overshoot 3: 1.3669
+-------------------------------------
+-------------------------------------
+Ganhos usados:
+Gamma: 6.8083
+Kappa: 842.6467
+Theta1: -0.533
+Theta2: 0.17898
+Theta3: 0.0053947
+Theta4: 1.192
+Theta5: -0.4231
+ThetaA: 0.058058
+ThetaS: 0.3156
+Resultados simulacao:
+MAE: 0.032364
+MSE: 2.3308
+RMSE: 1.5267
+T0: 0.014087
+T1: 0.01131
+T2: 0.010516
+T3: 0.011111
+Overshoot 0: 9.8116
+Overshoot 1: 1.5789
+Overshoot 2: 1.6149
+Overshoot 3: 1.8347
+-------------------------------------
+-------------------------------------
+Ganhos usados:
+Gamma: 39.8798
+Kappa: 581.6523
+Theta1: -0.44341
+Theta2: 0.066917
+Theta3: 0.0016349
+Theta4: 0.32342
+Theta5: -1.0686
+ThetaA: 0.016006
+ThetaS: 0.38174
+Resultados simulacao:
+MAE: 0.03572
+MSE: 2.3618
+RMSE: 1.5368
+T0: 0.014683
+T1: 0.0051587
+T2: 0.0047619
+T3: 0.025992
+Overshoot 0: 10.6393
+Overshoot 1: 0.72788
+Overshoot 2: 0.70534
+Overshoot 3: 5.1678
+-------------------------------------
+-------------------------------------
+Ganhos usados:
+Gamma: 53.6125
+Kappa: 700.1149
+Theta1: -0.57987
+Theta2: 0.22638
+Theta3: 0.032186
+Theta4: 1.0002
+Theta5: 0.77064
+ThetaA: -0.0053574
+ThetaS: 0.16492
+Resultados simulacao:
+MAE: 0.073444
+MSE: 2.6101
+RMSE: 1.6156
+T0: 0.010516
+T1: 0.013294
+T2: 0.0125
+T3: 0.010714
+Overshoot 0: 18.5822
+Overshoot 1: 6.1933
+Overshoot 2: 5.8491
+Overshoot 3: 2.2158
+-------------------------------------
+-------------------------------------
+Ganhos usados:
+Gamma: 3.5562
+Kappa: 603.8398
+Theta1: -0.36663
+Theta2: 0.11617
+Theta3: 0.017112
+Theta4: 0.73228
+Theta5: -0.0012599
+ThetaA: 0.012142
+ThetaS: 0.18793
+Resultados simulacao:
+MAE: 0.061899
+MSE: 2.4054
+RMSE: 1.5509
+T0: 0.0095238
+T1: 0.01369
+T2: 0.012302
+T3: 0.011905
+Overshoot 0: 11.1859
+Overshoot 1: 3.7686
+Overshoot 2: 3.8192
+Overshoot 3: 2.5268
+-------------------------------------

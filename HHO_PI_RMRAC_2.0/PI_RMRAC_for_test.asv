@@ -214,7 +214,7 @@ run45 = [3.556241      603.8398    -0.3666323     0.1161666     0.0171122     0.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-ganho = run45;
+ganho = run1;
 
 % Carrega par�metros e ganhos iniciais
 Gamma = ganho(1);
@@ -453,7 +453,6 @@ RMSE = sqrt(mean((r - y).^2));
 logFilename = 'Outputs_Final/Resultados.txt';
 diary(logFilename); 
 
-display('-------------------------------------');
 display('Ganhos usados:');
 display(['Gamma: ', num2str(ganho(1))]);
 display(['Kappa: ', num2str(ganho(2))]);
@@ -476,6 +475,7 @@ display(['Overshoot 0: ', num2str(ov0)]);
 display(['Overshoot 1: ', num2str(ov1)]);
 display(['Overshoot 2: ', num2str(ov2)]);
 display(['Overshoot 3: ', num2str(ov3)]);
+
 display('-------------------------------------');
 
 diary off;

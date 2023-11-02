@@ -2,11 +2,11 @@ clear all
 close all
 clc
 
-N=20; % Number of search agents
-T=200; % Maximum number of iterations
+N=50; % Number of search agents
+T=500; % Maximum number of iterations
 Function_name='F1'; % Name of the test function
 
-outputFolder = 'Outputs'; %Nome da pasta de saida
+outputFolder = 'Outputs_Final'; %Nome da pasta de saida
 imgCounter = 1; %Contador de figuras
 num = 5; %Numero de vezes que o codigo roda
 logFilename = 'ganhos.txt'; %Nome do log
@@ -22,15 +22,7 @@ for run = 1:num
     diary(logFullfile); %Inicia o log
     % Display information
     display(['Run: ', num2str(run)]);
-    display(['Gamma: ', num2str(Rabbit_Location(1))]);
-    display(['Kappa: ', num2str(Rabbit_Location(2))]);
-    display(['Theta 1: ', num2str(Rabbit_Location(3))]);
-    display(['Theta 2: ', num2str(Rabbit_Location(4))]);
-    display(['Theta 3: ', num2str(Rabbit_Location(5))]);
-    display(['Theta 4: ', num2str(Rabbit_Location(6))]);
-    display(['Theta 5: ', num2str(Rabbit_Location(7))]);
-    display(['Theta A: ', num2str(Rabbit_Location(8))]);
-    display(['Theta S: ', num2str(Rabbit_Location(9))]);
+    display(['Ganhos: ', num2str(Rabbit_Location)]);
     display(['Mean absolute error: ', num2str(Rabbit_Energy)]);
     fprintf('\n');
     diary off;
