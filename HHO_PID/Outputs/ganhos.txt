@@ -1,0 +1,8 @@
+Run 1: 1
+Best gains are: 2.59091           20  0.000267286
+Mean absolute error: 0.039682
+
+Run 1: 2
+Best gains are: 2.75783           20  0.000100363
+Mean absolute error: 0.039682
+
