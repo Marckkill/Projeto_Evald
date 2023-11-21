@@ -168,12 +168,12 @@ switch F
         lb=[10 10 0.9 0.9];
         ub=[50 80 5 5];
         dim=4;  
-%  For more functions, update the code here!  :)        
-%     case 'name'
-%         fobj= @name;
-%         lb = 
-%         ub=
-%         dim=
+        
+    case 'F28'
+        fobj= @F28;
+        lb = 1;
+        ub = 20;
+        dim = 2;
 end
 
 end
@@ -442,5 +442,11 @@ if y1 > 0
    o= o + 10* abs(y1); 
 end
 
+
+end
+
+function o = F28(x)
+
+o = plant(x);
 
 end
