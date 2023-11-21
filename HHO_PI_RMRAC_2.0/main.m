@@ -2,13 +2,13 @@ clear all
 close all
 clc
 
-N=50; % Number of search agents
-T=500; % Maximum number of iterations
+N=100; % Number of search agents
+T=1000; % Maximum number of iterations
 Function_name='F1'; % Name of the test function
 
 outputFolder = 'Outputs_Final'; %Nome da pasta de saida
 imgCounter = 1; %Contador de figuras
-num = 5; %Numero de vezes que o codigo roda
+num = 1; %Numero de vezes que o codigo roda
 logFilename = 'ganhos.txt'; %Nome do log
 logFullfile = fullfile(outputFolder,logFilename);
 

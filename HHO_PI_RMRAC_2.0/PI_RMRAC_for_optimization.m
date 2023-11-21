@@ -258,7 +258,7 @@ function o = PI_RMRAC_for_optimization(x)
 
  
     %% Penalizações da função custo
-    o = mean(abs(e1));
+    o = sum(abs(e1));
 
     % testa valores globais    
     if max(y) > 40 || max(e1) > 40 || max(u) > 400 || o==NaN

@@ -210,11 +210,11 @@ run42 = [6.80829      842.6467    -0.5329962     0.1789818   0.005394658      1.
 run43 = [39.87976      581.6523    -0.4434111    0.06691699   0.001634904     0.3234171     -1.068604    0.01600591     0.3817406];
 run44 = [53.61245      700.1149    -0.5798691     0.2263799    0.03218631      1.000177     0.7706354  -0.005357381     0.1649209];
 run45 = [3.556241      603.8398    -0.3666323     0.1161666     0.0171122     0.7322783  -0.001259944    0.01214249     0.1879292];
-
+run46 = [9.890614      833.3334    -0.9735506     0.4502753   0.002807275      1.150088     -1.109201    0.03831693     0.5029771];
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-ganho = run45;
+ganho = run46;
 
 % Carrega par�metros e ganhos iniciais
 Gamma = ganho(1);
@@ -481,92 +481,92 @@ display('-------------------------------------');
 diary off;
 
 
-% %% Parte 4 - Graficos 
-% 
-% fonte = 21;
-% 
-% a=figure;
-% % plot(tempo,r,'k','LineWidth',2);
-% plot(tempo,ym,':k','LineWidth',4);
-% hold on
-% % plot(t,y,'color',[0,0,0]+0.7,'LineWidth',2);
-% plot(tempo,y,'b','LineWidth',2); %4
-% grid on;
-% h2 = legend('$y_m$','$y$',([345, 100, 0, 0]));
-% % h2 = legend('$y_{m}$','$y$',([345, 100, 0, 0]));
-% set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
-% set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-% set(gcf,'Units','centimeters','PaperSize',[13 7]);   
-% % Recortar a figura da p�gina
-% set(gca,'fontsize',fonte,'units','norm');
-% ylabel('Current (A)','fontsize',fonte);
-% xlabel('Time (s)','fontsize',fonte);
-% % xlim([0 0.030])
-% % ylim([-25 25])
-% % xlim([0.99 1.03])
-% % ylim([-25 25])
-% % xlim([1.74 1.78])
-% % ylim([-30 30])
-% % xlim([2.49 2.52])
-% % ylim([-35 35])
-% 
-% 
-% figure
-% plot(tempo,e1,'b','LineWidth',3);
-% hold
-% % plot(tempo,E1,'color',[0,0,0]+0.7,'LineWidth',2);
-% % plot(tempo,E1,':k','LineWidth',4);
-% grid on;
-% % h2 = legend('$e_{1}$','$\epsilon$',([345, 100, 0, 0]));
-% h2 = legend('$e_{1}$',([345, 100, 0, 0]));
-% set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
-% set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-% set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da p�gina
-% set(gca,'fontsize',fonte,'units','norm');
-% ylabel('Errors (A)','fontsize',fonte);
-% xlabel('Time (s)','fontsize',fonte);
-% % xlim([0 0.03])
-% % ylim([-35 35])
-% % xlim([0.99 1.05])
-% % ylim([-2 2])
-% % xlim([1.74 1.82])
-% % ylim([-2 2])
-% % xlim([2.48 2.6])
-% % ylim([-6 6])
-% 
-% figure
-% plot(tempo,u,'b','LineWidth',2);
-% grid on;
-% h2 = legend('$u$',([345, 100, 0, 0]));
-% set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
-% set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-% set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da p�gina
-% set(gca,'fontsize',fonte,'units','norm');
-% ylabel('Control action (V)','fontsize',fonte);
-% xlabel('Time (s)','fontsize',fonte);
-% % ylim([-0.08 0.08])
-% % xlim([95 130])
-% % ylim([-0.08 0.08])
-% % xlim([145 170])
-% 
-% tempo(k+1) = tempo(k);
-% 
-% figure
-% set(gcf,'renderer','painters')
-% plot(tempo,Theta(1,:),'k','LineWidth',4);
-% hold on
-% plot(tempo,Theta(2,:),':b','LineWidth',3);
-% plot(tempo,Theta(3,:),'--r','LineWidth',2);
-% plot(tempo,Theta(4,:),'-.c','LineWidth',2);
-% plot(tempo,Theta(5,:),'dg','LineWidth',1);
-% plot(tempo,Theta(6,:),'color',[0,0,0]+0.6,'LineWidth',3);
-% plot(tempo,Theta(7,:),'--k','LineWidth',2);
-% grid on;
-% h2 = legend('$\theta_{1}$','$\theta_{2}$','$\theta_{3}$','$\theta_{4}$','$\theta_{5}$','$\theta_{c}$','$\theta_{s}$',([345, 100, 0, 0]));
-% set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
-% set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
-% set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da p�gina
-% set(gca,'fontsize',fonte,'units','norm');
-% ylabel('Gains','fontsize',fonte);
-% xlabel('Time (s)','fontsize',fonte);
-% % ylim([-4 8])
+%% Parte 4 - Graficos 
+
+fonte = 21;
+
+a=figure;
+% plot(tempo,r,'k','LineWidth',2);
+plot(tempo,ym,':k','LineWidth',4);
+hold on
+% plot(t,y,'color',[0,0,0]+0.7,'LineWidth',2);
+plot(tempo,y,'b','LineWidth',2); %4
+grid on;
+h2 = legend('$y_m$','$y$',([345, 100, 0, 0]));
+% h2 = legend('$y_{m}$','$y$',([345, 100, 0, 0]));
+set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
+set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
+set(gcf,'Units','centimeters','PaperSize',[13 7]);   
+% Recortar a figura da p�gina
+set(gca,'fontsize',fonte,'units','norm');
+ylabel('Current (A)','fontsize',fonte);
+xlabel('Time (s)','fontsize',fonte);
+% xlim([0 0.030])
+% ylim([-25 25])
+% xlim([0.99 1.03])
+% ylim([-25 25])
+% xlim([1.74 1.78])
+% ylim([-30 30])
+% xlim([2.49 2.52])
+% ylim([-35 35])
+
+
+figure
+plot(tempo,e1,'b','LineWidth',3);
+hold
+% plot(tempo,E1,'color',[0,0,0]+0.7,'LineWidth',2);
+% plot(tempo,E1,':k','LineWidth',4);
+grid on;
+% h2 = legend('$e_{1}$','$\epsilon$',([345, 100, 0, 0]));
+h2 = legend('$e_{1}$',([345, 100, 0, 0]));
+set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
+set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
+set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da p�gina
+set(gca,'fontsize',fonte,'units','norm');
+ylabel('Errors (A)','fontsize',fonte);
+xlabel('Time (s)','fontsize',fonte);
+% xlim([0 0.03])
+% ylim([-35 35])
+% xlim([0.99 1.05])
+% ylim([-2 2])
+% xlim([1.74 1.82])
+% ylim([-2 2])
+% xlim([2.48 2.6])
+% ylim([-6 6])
+
+figure
+plot(tempo,u,'b','LineWidth',2);
+grid on;
+h2 = legend('$u$',([345, 100, 0, 0]));
+set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
+set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
+set(gcf,'Units','centimeters','PaperSize',[13 7]);                                     % Recortar a figura da p�gina
+set(gca,'fontsize',fonte,'units','norm');
+ylabel('Control action (V)','fontsize',fonte);
+xlabel('Time (s)','fontsize',fonte);
+% ylim([-0.08 0.08])
+% xlim([95 130])
+% ylim([-0.08 0.08])
+% xlim([145 170])
+
+tempo(k+1) = tempo(k);
+
+figure
+set(gcf,'renderer','painters')
+plot(tempo,Theta(1,:),'k','LineWidth',4);
+hold on
+plot(tempo,Theta(2,:),':b','LineWidth',3);
+plot(tempo,Theta(3,:),'--r','LineWidth',2);
+plot(tempo,Theta(4,:),'-.c','LineWidth',2);
+plot(tempo,Theta(5,:),'dg','LineWidth',1);
+plot(tempo,Theta(6,:),'color',[0,0,0]+0.6,'LineWidth',3);
+plot(tempo,Theta(7,:),'--k','LineWidth',2);
+grid on;
+h2 = legend('$\theta_{1}$','$\theta_{2}$','$\theta_{3}$','$\theta_{4}$','$\theta_{5}$','$\theta_{c}$','$\theta_{s}$',([345, 100, 0, 0]));
+set(h2, 'interpreter','latex','fontsize',fonte,'units','norm','Location','NorthEast'); % Legenda
+set(gcf,'Units','centimeters','Position',[10,7,8.8,5.3],'color','white');              % Background
+set(gcf,'Units','centimeters','PaperSize',[14 7]);                                     % Recortar a figura da p�gina
+set(gca,'fontsize',fonte,'units','norm');
+ylabel('Gains','fontsize',fonte);
+xlabel('Time (s)','fontsize',fonte);
+% ylim([-4 8])
