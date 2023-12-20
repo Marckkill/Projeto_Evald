@@ -218,9 +218,9 @@ end
 
     % testa valores globais  
     if isnan(o)
-        o=10000;
+        o=10000000000;
     end
-    if max(y) > 40 || max(e0) > 40 || max(u) > 400 
+    if max(y) > 40 || max(e0) > 40 || max(u) > 400
         o=o*10;            
     end    
     if min(y) < -40 || min(e0) < -40 || min(u) < -400

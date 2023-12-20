@@ -10,17 +10,17 @@ Theta5: -0.36871
 ThetaA: -0.06759
 ThetaS: 0.33939
 Resultados simulacao:
-MAE: 0.033474
-MSE: 2.5266
-RMSE: 1.5895
+MAE: 0.02903
+MSE: 2.0197
+RMSE: 1.4212
 T0: 0.013889
 T1: 0.010913
-T2: 0.010317
-T3: 0.0099206
+T2: 0.0063492
+T3: 0.0097222
 Overshoot 0: 21.1041
 Overshoot 1: 1.8227
-Overshoot 2: 1.7139
-Overshoot 3: 1.3669
+Overshoot 2: 0.84528
+Overshoot 3: 1.0742
 -------------------------------------
 -------------------------------------
 Ganhos usados:
@@ -34,17 +34,17 @@ Theta5: -0.4231
 ThetaA: 0.058058
 ThetaS: 0.3156
 Resultados simulacao:
-MAE: 0.032364
-MSE: 2.3308
-RMSE: 1.5267
+MAE: 0.026666
+MSE: 1.8231
+RMSE: 1.3502
 T0: 0.014087
 T1: 0.01131
-T2: 0.010516
-T3: 0.011111
+T2: 0.0065476
+T3: 0.0099206
 Overshoot 0: 9.8116
 Overshoot 1: 1.5789
-Overshoot 2: 1.6149
-Overshoot 3: 1.8347
+Overshoot 2: 0.79415
+Overshoot 3: 1.4611
 -------------------------------------
 -------------------------------------
 Ganhos usados:
@@ -58,17 +58,17 @@ Theta5: -1.0686
 ThetaA: 0.016006
 ThetaS: 0.38174
 Resultados simulacao:
-MAE: 0.03572
-MSE: 2.3618
-RMSE: 1.5368
+MAE: 0.031434
+MSE: 1.8463
+RMSE: 1.3588
 T0: 0.014683
 T1: 0.0051587
-T2: 0.0047619
-T3: 0.025992
+T2: 0.0021825
+T3: 0.019643
 Overshoot 0: 10.6393
 Overshoot 1: 0.72788
-Overshoot 2: 0.70534
-Overshoot 3: 5.1678
+Overshoot 2: 0.34302
+Overshoot 3: 4.3194
 -------------------------------------
 -------------------------------------
 Ganhos usados:
@@ -82,17 +82,17 @@ Theta5: 0.77064
 ThetaA: -0.0053574
 ThetaS: 0.16492
 Resultados simulacao:
-MAE: 0.073444
-MSE: 2.6101
-RMSE: 1.6156
+MAE: 0.055687
+MSE: 2.0392
+RMSE: 1.428
 T0: 0.010516
 T1: 0.013294
-T2: 0.0125
+T2: 0.011508
 T3: 0.010714
 Overshoot 0: 18.5822
 Overshoot 1: 6.1933
-Overshoot 2: 5.8491
-Overshoot 3: 2.2158
+Overshoot 2: 2.8851
+Overshoot 3: 1.6821
 -------------------------------------
 -------------------------------------
 Ganhos usados:
@@ -106,63 +106,15 @@ Theta5: -0.0012599
 ThetaA: 0.012142
 ThetaS: 0.18793
 Resultados simulacao:
-MAE: 0.061899
-MSE: 2.4054
-RMSE: 1.5509
+MAE: 0.04813
+MSE: 1.8671
+RMSE: 1.3664
 T0: 0.0095238
 T1: 0.01369
-T2: 0.012302
-T3: 0.011905
+T2: 0.011111
+T3: 0.010913
 Overshoot 0: 11.1859
 Overshoot 1: 3.7686
-Overshoot 2: 3.8192
-Overshoot 3: 2.5268
--------------------------------------
--------------------------------------
-Ganhos usados:
-Gamma: 9.8906
-Kappa: 833.3334
-Theta1: -0.97355
-Theta2: 0.45028
-Theta3: 0.0028073
-Theta4: 1.1501
-Theta5: -1.1092
-ThetaA: 0.038317
-ThetaS: 0.50298
-Resultados simulacao:
-MAE: 0.020943
-MSE: 2.3416
-RMSE: 1.5302
-T0: 0.0083333
-T1: 0.0021825
-T2: 0.0019841
-T3: 0.01131
-Overshoot 0: 12.2996
-Overshoot 1: 0
-Overshoot 2: 0
-Overshoot 3: 2.2413
--------------------------------------
--------------------------------------
-Ganhos usados:
-Gamma: 9.8906
-Kappa: 833.3334
-Theta1: -0.97355
-Theta2: 0.45028
-Theta3: 0.0028073
-Theta4: 1.1501
-Theta5: -1.1092
-ThetaA: 0.038317
-ThetaS: 0.50298
-Resultados simulacao:
-MAE: 0.020943
-MSE: 2.3416
-RMSE: 1.5302
-T0: 0.0083333
-T1: 0.0021825
-T2: 0.0019841
-T3: 0.01131
-Overshoot 0: 12.2996
-Overshoot 1: 0
-Overshoot 2: 0
-Overshoot 3: 2.2413
+Overshoot 2: 1.8779
+Overshoot 3: 1.9786
 -------------------------------------

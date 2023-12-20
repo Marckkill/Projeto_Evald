@@ -16,7 +16,7 @@
 %_________________________________________________________________________%
 clear
 clc
-SearchAgents_no=100; %  number of Black Widows Spiders 
+SearchAgents_no=500; %  number of Black Widows Spiders 
 Function_name='F28'; % <== write 'F2' or 'F3' and so on.  Name of the test function that can be from F1 to F23, for F24+ are ing. problems.
 Max_iteration=1000; % Maximum numbef of iterations
 [lb,ub,dim,fobj]=Get_Function(Function_name);   % Load details of the selected benchmark function
