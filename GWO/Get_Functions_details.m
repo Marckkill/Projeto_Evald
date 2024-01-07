@@ -3,8 +3,8 @@ switch F
     case 'F1'
         fobj = @F1;
         % Kp, Ki, Gamma, Kappa, Thetac(4), Thetas(4)
-        lb= [ 0.001 0.001  1    1  -40 -40 ]; 
-        ub= [ 200   200   100 2000  40  40 ];
+        lb= [ 1  1  1    1  -1 -1 ]; 
+        ub= [ 20   20   100 2000  40  40 ];
         dim=6;    
         
         case 'F2'
